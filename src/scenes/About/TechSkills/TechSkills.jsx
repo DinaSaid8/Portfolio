@@ -14,6 +14,9 @@ import {
   SiBootstrap,
   SiGithub,
   SiFigma,
+  SiShopify,
+  SiWordpress,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const TechSkills = () => {
@@ -50,15 +53,18 @@ const TechSkills = () => {
         <SiFigma className={s.icon}  />
         <p className={s.title}>Figma</p>
       </li>
-      {/* BACKEND TOOL */}
-
+      
       <li className={s.techIcon}>
-        <DiNodejs className={s.icon}  />
-        <p className={s.title}>NodeJs</p>
+        <SiNextdotjs className={s.icon}  />
+        <p className={s.title}>Nextjs</p>
       </li>
       <li className={s.techIcon}>
-        <DiMongodb className={s.icon}  />
-        <p className={s.title}>Mongodb</p>
+        <SiWordpress className={s.icon}  />
+        <p className={s.title}>Wordpress</p>
+      </li>
+      <li className={s.techIcon}>
+        <SiShopify className={s.icon}  />
+        <p className={s.title}>Shopify</p>
       </li>
 
       <li className={s.techIcon}>

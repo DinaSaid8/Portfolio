@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  transition: all .8s ease-in-out 0.3s;
+
   
 }
 
@@ -26,18 +28,26 @@
   font-size: 2rem;
   padding: 2rem 0rem;
   display: none;
+  transition: all .5s ease-in-out 0.2s;
+
   }
 
   &:hover {
+    transition: all .5s ease-in-out 0.2s;
+
     transform: scale(1.05) ;
     overflow: hidden;
     border: 2.2px solid rgba(197, 115, 230, 0.883);
   }
   &:hover .title{
+    transition: all .5s ease-in-out 0.2s;
+
     animation: fade 1s ease-in-out;
     display: block;
   }
   &:hover .icon{
+    transition: all .5s ease-in-out 0.2s;
+
     display: none;
     transition-delay: 0.5s;
 
