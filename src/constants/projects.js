@@ -109,36 +109,36 @@ export const PROJECTS = [
       "#react-hook-form",
     ],
   },
-  {
-    id: "6",
-    title: "MoGO",
-    description: "A MoGo templete made with HTML, Bootstrap and Sass.",
-    image: {
-      src: "https://bootstrapthemes.co/wp-content/uploads/edd/2016/03/preview.jpg",
-      placeholderSrc:
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==",
-    },
-    links: {
-      site: "https://mo-go-zeta.vercel.app/",
-      repo: "https://github.com/DinaSaid8/MoGo",
-    },
-    technologies: ["#Bootstrap", "#SCSS"],
-  },
-  {
-    id: "7",
-    title: "Analog Clock",
-    description:
-      "A simple analog clock to get  current date and time with dark and light mode , Uses HTML5, CSS3, Js ",
+  // {
+  //   id: "6",
+  //   title: "MoGO",
+  //   description: "A MoGo templete made with HTML, Bootstrap and Sass.",
+  //   image: {
+  //     src: "https://bootstrapthemes.co/wp-content/uploads/edd/2016/03/preview.jpg",
+  //     placeholderSrc:
+  //       "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==",
+  //   },
+  //   links: {
+  //     site: "https://mo-go-zeta.vercel.app/",
+  //     repo: "https://github.com/DinaSaid8/MoGo",
+  //   },
+  //   technologies: ["#Bootstrap", "#SCSS"],
+  // },
+  // {
+  //   id: "7",
+  //   title: "Analog Clock",
+  //   description:
+  //     "A simple analog clock to get  current date and time with dark and light mode , Uses HTML5, CSS3, Js ",
 
-    image: {
-      src: "https://res.cloudinary.com/dijgyjnym/image/upload/v1709930758/Screenshot_2024-03-08_224530_pdqiex.png",
-      placeholderSrc:
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==",
-    },
-    links: {
-      site: "https://clock-dinasaid8.vercel.app/",
-      repo: "https://github.com/DinaSaid8/Clock",
-    },
-    technologies: ["#HTML", "#CSS", "#JavaScript"],
-  },
+  //   image: {
+  //     src: "https://res.cloudinary.com/dijgyjnym/image/upload/v1709930758/Screenshot_2024-03-08_224530_pdqiex.png",
+  //     placeholderSrc:
+  //       "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==",
+  //   },
+  //   links: {
+  //     site: "https://clock-dinasaid8.vercel.app/",
+  //     repo: "https://github.com/DinaSaid8/Clock",
+  //   },
+  //   technologies: ["#HTML", "#CSS", "#JavaScript"],
+  // },
 ];
